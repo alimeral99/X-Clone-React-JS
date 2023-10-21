@@ -1,13 +1,10 @@
 import React from "react";
 
-function SidebarOption() {
+function SidebarOption({ text, Icon, xLogo }) {
   return (
     <div>
-      <ul>
-        <li>1</li>
-        <li>1</li>
-        <li>1</li>
-      </ul>
+      {xLogo ? <img src={xLogo} alt="" /> : <Icon />}
+      <h2>{text}</h2>
     </div>
   );
 }
