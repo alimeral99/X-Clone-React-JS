@@ -1,5 +1,25 @@
 .sidebar {
-  width: 25%;
-  border-right: 1px solid lightgray;
-  height: 100vh;
+  position: sticky;
+  left: 0;
+  top: 20px;
+  width: 20%;
+  height: 90vh;
+  text-align: center;
+}
+
+.sidebar_logo {
+  margin-right: 90px;
+}
+
+.sidebar_button {
+  background-color: #1a8cd8;
+  border: none;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
 }

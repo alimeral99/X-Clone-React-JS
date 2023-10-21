@@ -4,10 +4,33 @@ import "./Post.css";
 function Post() {
   return (
     <div className="post">
-      <p>test test test test</p>
-      <p>test test test test</p>
-      <p>test test test test</p>
-      <p>test test test test</p>
+      <h1>test</h1>
+      <h1>test</h1> <h1>test</h1> <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1> <h1>test</h1> <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1> <h1>test</h1> <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
+      <h1>test</h1>
     </div>
   );
 }

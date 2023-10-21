@@ -15,8 +15,7 @@ const xLogo =
 function Sidebar() {
   return (
     <div className="sidebar">
-      <img src={xLogo} alt="" />
-
+      <div className="sidebar_logo">{<img src={xLogo} alt="" />}</div>
       <SidebarOption Icon={GoHomeFill} text="home" />
       <SidebarOption Icon={BiSearch} text="discover" />
       <SidebarOption Icon={IoNotificationsOutline} text="notifications" />
@@ -25,6 +24,8 @@ function Sidebar() {
       <SidebarOption xLogo={xLogo} text="premium" />
       <SidebarOption Icon={BsPerson} text="profile" />
       <SidebarOption Icon={CgMoreO} text="more" />
+
+      <button className="sidebar_button">Send</button>
     </div>
   );
 }
