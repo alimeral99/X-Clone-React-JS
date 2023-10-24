@@ -1,0 +1,22 @@
+.post_list {
+  display: flex;
+  padding: 10px 15px;
+}
+
+.postList_info {
+  margin-left: 10px;
+}
+
+.postList_header > .postList_headerName {
+  font-size: 15px;
+}
+
+.postList_headerName > .postList_headerUsername {
+  font-size: 14px !important;
+  font-weight: 200;
+  color: gray;
+}
+
+.postList_content {
+  margin-top: 10px;
+}
