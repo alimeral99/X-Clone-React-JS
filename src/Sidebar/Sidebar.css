@@ -1,14 +1,22 @@
 .sidebar {
   position: sticky;
   left: 0;
-  top: 20px;
+  top: 10px;
   width: 20%;
   height: 90vh;
   text-align: center;
 }
 
 .sidebar_logo {
-  margin-right: 90px;
+  font-size: 60px;
+  margin-right: 100px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.sidebar_logo:hover {
+  background-color: #e7e7e8;
 }
 
 .sidebar_button {

@@ -8,20 +8,18 @@ import { HiOutlineMail } from "react-icons/hi";
 import { RiFileList2Line } from "react-icons/ri";
 import { BsPerson } from "react-icons/bs";
 import { CgMoreO } from "react-icons/cg";
-
-const xLogo =
-  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/X11.svg/25px-X11.svg.png";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Sidebar() {
   return (
     <div className="sidebar">
-      <div className="sidebar_logo">{<img src={xLogo} alt="" />}</div>
+      <FaXTwitter className="sidebar_logo" />
       <SidebarOption Icon={GoHomeFill} text="home" />
       <SidebarOption Icon={BiSearch} text="discover" />
       <SidebarOption Icon={IoNotificationsOutline} text="notifications" />
       <SidebarOption Icon={HiOutlineMail} text="messagges" />
       <SidebarOption Icon={RiFileList2Line} text="lists" />
-      <SidebarOption xLogo={xLogo} text="premium" />
+      <SidebarOption Icon={FaXTwitter} text="premium" />
       <SidebarOption Icon={BsPerson} text="profile" />
       <SidebarOption Icon={CgMoreO} text="more" />
 
