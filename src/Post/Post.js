@@ -1,12 +1,28 @@
 import React from "react";
 import "./Post.css";
 import PostList from "./PostList";
+import { db } from "../firebase";
+import { collection, addDoc } from "firebase/firestore";
+
 import Avatar from "react-avatar";
 import { MdOutlineGifBox } from "react-icons/md";
 import { AiOutlinePicture } from "react-icons/ai";
 import { BsEmojiSmile } from "react-icons/bs";
 import { PiNote } from "react-icons/pi";
 import { CiLocationOn } from "react-icons/ci";
+
+const addPost = async () => {
+  try {
+    const docRef = await addDoc(collection(db, "tweet"), {
+      first: "Ada",
+      last: "Lovelace",
+      born: 1815,
+    });
+    console.log("Document written with ID: ", docRef.id);
+  } catch (e) {
+    console.error("Error adding document: ", e);
+  }
+};
 
 function Post() {
   return (
@@ -31,7 +47,9 @@ function Post() {
               <CiLocationOn className="leftButtons_icons" />
             </div>
             <div className="right_button">
-              <button className="sendText_button">Send</button>
+              <button onClick={addPost} className="sendText_button">
+                Send
+              </button>
             </div>
           </div>
         </div>
