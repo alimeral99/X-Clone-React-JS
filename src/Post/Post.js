@@ -36,7 +36,12 @@ function Post() {
           </div>
         </div>
       </div>
-      <PostList />{" "}
+      <PostList />
+      <PostList />
+      <PostList />
+      <PostList />
+      <PostList />
+      <PostList />
     </div>
   );
 }

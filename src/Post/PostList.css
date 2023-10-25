@@ -1,10 +1,23 @@
 .post_list {
   display: flex;
   padding: 10px 15px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  transition: 2ms;
+}
+
+.post_list:hover {
+  background-color: #f7f7f7;
 }
 
 .postList_info {
   margin-left: 10px;
+}
+
+.postList_header {
+  display: flex;
+  justify-content: space-between;
 }
 
 .postList_header > .postList_headerName {
@@ -18,5 +31,23 @@
 }
 
 .postList_content {
+  margin: 5px 0;
+}
+
+.postList_content > .postList_text {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+}
+
+.postList_footer {
   margin-top: 10px;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postList_footer > .footer_icons {
+  font-size: 18px;
+  cursor: pointer;
 }
