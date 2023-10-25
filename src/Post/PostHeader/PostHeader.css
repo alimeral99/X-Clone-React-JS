@@ -1,0 +1,24 @@
+.postHeader_title {
+  padding: 5px 15px;
+}
+
+.postHeader_buttons {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.postHeader_buttons > button {
+  border: none;
+  background: none;
+  width: 50%;
+  padding: 20px;
+  cursor: pointer;
+  color: #333;
+  font-weight: 550;
+  font-size: 15px;
+  transition: all 4ms ease-in;
+}
+
+.postHeader_buttons > button:hover {
+  background-color: #e7e7e8;
+}
