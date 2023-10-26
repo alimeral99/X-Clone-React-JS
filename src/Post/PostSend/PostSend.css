@@ -17,6 +17,13 @@
   font-family: sans-serif;
 }
 
+.postTweet_image {
+  margin: 5px 10px;
+  width: 100%;
+  height: 400px !important;
+  border-radius: 15px;
+}
+
 .postSend_buttons {
   display: flex;
   justify-content: space-between;

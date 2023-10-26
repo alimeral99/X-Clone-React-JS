@@ -6,7 +6,6 @@ import PostList from "./PostList/PostList";
 
 import { db } from "../firebase";
 import { collection, getDocs } from "firebase/firestore";
-import { PiArrowsOutSimpleLight } from "react-icons/pi";
 
 function Post() {
   const [tweets, setTweets] = useState([]);

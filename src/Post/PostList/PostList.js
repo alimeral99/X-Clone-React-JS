@@ -9,7 +9,7 @@ import { LuShare } from "react-icons/lu";
 import { FiMoreHorizontal } from "react-icons/fi";
 
 function PostList({ items }) {
-  const { displayName, username, text, avatar } = items;
+  const { displayName, username, text, avatar, image } = items;
 
   console.log(items);
   return (
@@ -32,6 +32,10 @@ function PostList({ items }) {
         </div>
         <div className="postList_content">
           <p className="postList_text">{text}</p>
+
+          {image && (
+            <img src={image} alt="tweet_image" className="tweet_image" />
+          )}
         </div>
         <div className="postList_footer">
           <GoComment className="footer_icons" />
