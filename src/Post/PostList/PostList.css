@@ -2,7 +2,6 @@
   display: flex;
   padding: 10px 15px;
   border-top: 1px solid lightgray;
-  border-bottom: 1px solid lightgray;
   cursor: pointer;
   transition: 2ms;
 }
@@ -13,6 +12,13 @@
 
 .postList_info {
   margin-left: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.post_list_img {
+  width: 100%;
+  object-fit: fill;
 }
 
 .postList_header {
@@ -22,12 +28,14 @@
 
 .postList_header > .postList_headerName {
   font-size: 15px;
+  flex: 1;
 }
 
 .postList_headerName > .postList_headerUsername {
   font-size: 14px !important;
   font-weight: 200;
   color: gray;
+  margin-left: 5px;
 }
 
 .postList_content {

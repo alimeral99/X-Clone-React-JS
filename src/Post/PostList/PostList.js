@@ -8,23 +8,30 @@ import { BiShow } from "react-icons/bi";
 import { LuShare } from "react-icons/lu";
 import { FiMoreHorizontal } from "react-icons/fi";
 
-function PostList() {
+function PostList({ items }) {
+  const { displayName, username, text, avatar } = items;
+
+  console.log(items);
   return (
     <div className="post_list">
-      <Avatar size="40px" name="Wim Mostmans" round="50px" />
+      <div className="posList_avatarContainer">
+        <Avatar
+          size="40px"
+          src={avatar}
+          round="50px"
+          className="postList_img"
+        />
+      </div>
       <div className="postList_info">
         <div className="postList_header">
           <h2 className="postList_headerName">
-            mahmut mahmut{" "}
-            <span className="postList_headerUsername">testest21</span>
+            {displayName}
+            <span className="postList_headerUsername">{username}</span>
           </h2>
           <FiMoreHorizontal />
         </div>
         <div className="postList_content">
-          <p className="postList_text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing
-            elitaaaasssssssss Numquamfdfddffdfddfdf veritatis.
-          </p>
+          <p className="postList_text">{text}</p>
         </div>
         <div className="postList_footer">
           <GoComment className="footer_icons" />

@@ -6,14 +6,15 @@ import PostList from "./PostList/PostList";
 
 import { db } from "../firebase";
 import { collection, getDocs } from "firebase/firestore";
+import { PiArrowsOutSimpleLight } from "react-icons/pi";
 
 function Post() {
-  const [post, setPost] = useState([]);
+  const [tweets, setTweets] = useState([]);
 
   useEffect(() => {
     async function getTweet() {
       const querySnapshot = await getDocs(collection(db, "tweet"));
-      setPost(
+      setTweets(
         querySnapshot.docs.map((doc) => ({
           id: doc.id,
           items: doc.data(),
@@ -23,17 +24,13 @@ function Post() {
     getTweet();
   }, []);
 
-  console.log(post);
-
   return (
     <div className="post">
       <PostHeader />
       <PostSend />
-      <PostList />
-      <PostList />
-      <PostList />
-      <PostList />
-      <PostList />
+      {tweets.map((post) => (
+        <PostList items={post.items} key={post.id} />
+      ))}
     </div>
   );
 }
