@@ -11,7 +11,6 @@ import { FiMoreHorizontal } from "react-icons/fi";
 function PostList({ items }) {
   const { displayName, username, text, avatar, image } = items;
 
-  console.log(items);
   return (
     <div className="post_list">
       <div className="posList_avatarContainer">
