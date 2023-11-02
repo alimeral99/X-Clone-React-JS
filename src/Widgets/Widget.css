@@ -1,0 +1,23 @@
+.widget {
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.widget_search {
+  display: flex;
+  align-items: center;
+  background-color: #eff3f4;
+  width: 350px;
+  height: 40px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.widget_search > input {
+  border: none;
+  flex: 1;
+  background: none;
+  outline: none;
+  padding-left: 10px;
+}
