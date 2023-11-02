@@ -29,9 +29,8 @@ function PostSend() {
   };
 
   const sendImage = () => {
-    let imgUrl = prompt("place enter image url");
+    let imgUrl = prompt("please enter image url");
     setImage(imgUrl);
-    console.log(image);
   };
 
   return (
