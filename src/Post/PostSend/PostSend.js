@@ -17,7 +17,7 @@ function PostSend() {
   const sendTweet = async (e) => {
     e.preventDefault();
     if (input || image) {
-      const postTweet = await addDoc(collection(db, "tweet"), {
+      await addDoc(collection(db, "tweet"), {
         displayName: "Ali Meral",
         username: "alimeral99",
         text: input,
@@ -25,7 +25,6 @@ function PostSend() {
         avatar: null,
       });
     }
-    console.log(image);
   };
 
   const sendImage = () => {
