@@ -24,6 +24,8 @@ function PostSend() {
         avatar: "https://avatars.githubusercontent.com/u/116317867?v=4",
       });
     }
+    setInput("");
+    setImage("");
   };
 
   const sendImage = () => {
