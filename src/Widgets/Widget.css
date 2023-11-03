@@ -39,3 +39,42 @@
   font-size: 17px;
   margin-bottom: 15px;
 }
+
+.widget_footer {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #eff3f4;
+}
+
+.widget_footerContainer {
+  margin: 10px auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_profileInfo {
+  margin-right: 20px;
+}
+
+.widget_footerContainer > .footer_profileInfo > h2 {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.widget_footerContainer > .footer_profileInfo > h5 {
+  font-size: 13px;
+  font-weight: 200;
+  color: #333;
+}
+
+.widget_footerContainer > button {
+  border: none;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 15px;
+  cursor: pointer;
+}
