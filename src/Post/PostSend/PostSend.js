@@ -22,7 +22,7 @@ function PostSend() {
         username: "alimeral99",
         text: input,
         image: image,
-        avatar: null,
+        avatar: "https://avatars.githubusercontent.com/u/116317867?v=4",
       });
     }
   };
@@ -34,7 +34,11 @@ function PostSend() {
 
   return (
     <div className="post_send">
-      <Avatar size="40px" name="Ali Meral" round="50px" />
+      <Avatar
+        size="40px"
+        src="https://avatars.githubusercontent.com/u/116317867?v=4"
+        round="50px"
+      />
       <div className="postSend_container">
         <div className="postSend_text">
           <textarea

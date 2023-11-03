@@ -27,7 +27,11 @@ function Sidebar() {
       <button className="sidebar_button">Send</button>
 
       <div className="sidebar_profileContainer">
-        <Avatar size="40px" name="Ali Meral" round="50px" />
+        <Avatar
+          size="40px"
+          src="https://avatars.githubusercontent.com/u/116317867?v=4"
+          round="50px"
+        />
 
         <div className="sidebar_profileInfo">
           <h2>Ali Meral</h2>
