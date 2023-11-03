@@ -21,3 +21,15 @@
   outline: none;
   padding-left: 10px;
 }
+
+.widget_trendContent {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #eff3f4;
+  border-radius: 15px;
+}
+
+.widget_trendContent > .trendContent_title {
+  font-size: 17px;
+  margin-bottom: 15px;
+}

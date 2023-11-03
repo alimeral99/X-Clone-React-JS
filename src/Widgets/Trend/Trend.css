@@ -1,0 +1,25 @@
+.trend {
+  margin-top: 10px;
+  color: #333;
+  cursor: pointer;
+}
+
+.trend > .trend_subject {
+  font-weight: 200;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.trend > .trend_name {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: black !important;
+}
+
+.trend > .trend_amount {
+  font-weight: 200;
+  font-size: 14px;
+  margin-top: 3px;
+}

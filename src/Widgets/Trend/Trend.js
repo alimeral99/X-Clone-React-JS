@@ -5,9 +5,9 @@ function Trend({ items }) {
   const { subject, trendName, amount } = items;
   return (
     <div className="trend">
-      <h4>{subject}</h4>
-      <h2>{trendName}</h2>
-      <h4>{amount}</h4>
+      <h6 className="trend_subject">{subject}</h6>
+      <h4 className="trend_name">{trendName}</h4>
+      <h6 className="trend_amount">{amount} b posts</h6>
     </div>
   );
 }

@@ -22,8 +22,6 @@ function Widget() {
     getTrends();
   }, []);
 
-  console.log(trends);
-
   return (
     <div className="widget">
       <div className="widget_header">
@@ -32,9 +30,12 @@ function Widget() {
           <input type="text" placeholder="search" />
         </div>
       </div>
-      {trends.map((trend) => (
-        <Trend items={trend.items} key={trend.id} />
-      ))}
+      <div className="widget_trendContent">
+        <h2 className="trendContent_title">Things that might interest you</h2>
+        {trends.map((trend) => (
+          <Trend items={trend.items} key={trend.id} />
+        ))}
+      </div>
     </div>
   );
 }
