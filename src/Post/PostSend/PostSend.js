@@ -8,7 +8,6 @@ import { AiOutlinePicture } from "react-icons/ai";
 import { BsEmojiSmile } from "react-icons/bs";
 import { PiNote } from "react-icons/pi";
 import { CiLocationOn } from "react-icons/ci";
-import { LuFormInput } from "react-icons/lu";
 
 function PostSend() {
   const [input, setInput] = useState("");

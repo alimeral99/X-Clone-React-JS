@@ -21,7 +21,7 @@ function Post() {
       );
     }
     getTweet();
-  }, []);
+  }, [tweets]);
 
   return (
     <div className="post">
