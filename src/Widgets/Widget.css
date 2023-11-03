@@ -1,6 +1,11 @@
 .widget {
   margin-top: 3px;
   margin-left: 20px;
+  position: sticky;
+  right: 0;
+  top: 0;
+  height: max-content;
+  overflow-y: scroll;
 }
 
 .widget_search {
