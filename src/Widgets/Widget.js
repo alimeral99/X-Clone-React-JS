@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Widget.css";
 import Trend from "./Trend/Trend";
-import { BiSearch, BiTrendingUp } from "react-icons/bi";
+import { BiSearch } from "react-icons/bi";
 import Avatar from "react-avatar";
 
 import { db } from "../firebase";

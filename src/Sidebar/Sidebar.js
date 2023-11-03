@@ -9,6 +9,7 @@ import { RiFileList2Line } from "react-icons/ri";
 import { BsPerson } from "react-icons/bs";
 import { CgMoreO } from "react-icons/cg";
 import { FaXTwitter } from "react-icons/fa6";
+import Avatar from "react-avatar";
 
 function Sidebar() {
   return (
@@ -24,6 +25,15 @@ function Sidebar() {
       <SidebarOption Icon={CgMoreO} text="more" />
 
       <button className="sidebar_button">Send</button>
+
+      <div className="sidebar_profileContainer">
+        <Avatar size="40px" name="Ali Meral" round="50px" />
+
+        <div className="sidebar_profileInfo">
+          <h2>Ali Meral</h2>
+          <h5>@alimeral99</h5>
+        </div>
+      </div>
     </div>
   );
 }

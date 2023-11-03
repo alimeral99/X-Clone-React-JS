@@ -31,3 +31,25 @@
   letter-spacing: 2px;
   cursor: pointer;
 }
+
+.sidebar_profileContainer {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar_profileContainer > .sidebar_profileInfo {
+  margin-left: 15px;
+}
+
+.sidebar_profileInfo > h2 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.sidebar_profileInfo > h5 {
+  font-size: 13px;
+  font-weight: 200;
+  color: grey;
+}
