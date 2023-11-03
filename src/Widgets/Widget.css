@@ -5,7 +5,7 @@
   right: 0;
   top: 0;
   height: max-content;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .widget_search {
@@ -32,6 +32,7 @@
   padding: 10px;
   background-color: #eff3f4;
   border-radius: 15px;
+  overflow-y: visible;
 }
 
 .widget_trendContent > .trendContent_title {

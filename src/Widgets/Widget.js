@@ -36,6 +36,8 @@ function Widget() {
           <Trend items={trend.items} key={trend.id} />
         ))}
       </div>
+      <h2>test</h2>
+      <h2>test</h2>
     </div>
   );
 }
