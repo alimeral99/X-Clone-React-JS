@@ -3,3 +3,9 @@
   border-left: 1px solid lightgray;
   border-right: 1px solid lightgray;
 }
+
+@media screen and (max-width: 950px) {
+  .post {
+    width: 85%;
+  }
+}

@@ -78,3 +78,9 @@
   border-radius: 15px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 950px) {
+  .widget {
+    display: none;
+  }
+}

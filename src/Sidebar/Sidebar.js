@@ -32,12 +32,12 @@ function Sidebar() {
           src="https://avatars.githubusercontent.com/u/116317867?v=4"
           round="50px"
         />
-
         <div className="sidebar_profileInfo">
           <h2>Ali Meral</h2>
           <h5>@alimeral99</h5>
         </div>
       </div>
+      
     </div>
   );
 }
