@@ -6,7 +6,7 @@
 ### Topics
   * Html
   * Css-Flexbox
-  * Css-Responsive-Designe
+  * Css-Responsive-Design
   * JavaScript
   * React
   * Firebase for real time database
